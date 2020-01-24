@@ -12,7 +12,6 @@ end;
 
 GroupByStructureDescription := function(str)
   local from, depth, ind, G1, G2, N, H, semidir, args, d, q, n;
-  Print(str, "\n");
   # Remove spaces
   str := Filtered(str, c -> c <> ' ');
   
